@@ -109,7 +109,7 @@ USE_I18N = True
 USE_TZ = True
 
 # Static Files
-STATIC_URL = '/static/'
+STATIC_URL = 'menu/static/'
 STATIC_ROOT = BASE_DIR / 'staticfiles'
 STATICFILES_DIRS = [
     BASE_DIR / 'users/static',
